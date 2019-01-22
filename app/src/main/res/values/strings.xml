@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Envases</string>
+    <string-array name="Nombres">
+        <item>Arnold</item>
+        <item>Marco</item>
+        <item>Geovannie</item>
+        <item>Julio</item>
+        <item>Miguel</item>
+        <item>Neri</item>
+        <item>Armando N</item>
+        <item>Gildardo</item>
+    </string-array>
+</resources>

@@ -1,13 +1,12 @@
 <resources>
     <string name="app_name">Envases</string>
     <string-array name="Nombres">
-        <item>Arnold</item>
-        <item>Marco</item>
-        <item>Geovannie</item>
-        <item>Julio</item>
+        <item>Eduardo</item>
+        <item>Cesar</item>
+        <item>Jose Luis</item>
+        <item>Leonardo</item>
         <item>Miguel</item>
-        <item>Neri</item>
-        <item>Armando N</item>
-        <item>Gildardo</item>
+        <item>Silver</item>
+        <item>Francisco</item>
     </string-array>
 </resources>

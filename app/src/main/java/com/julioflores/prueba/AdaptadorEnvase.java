@@ -30,10 +30,14 @@ public class AdaptadorEnvase extends ArrayAdapter<Envases> {
         t1.setText(String.valueOf(envases.getNopedidos()));
         TextView t2 = (TextView) listItemView.findViewById(R.id.Fechacap_envase);
         t2.setText(envases.getFechaCapturas());
+        TextView ta = (TextView) listItemView.findViewById(R.id.No_Lote);
+        ta.setText(String.valueOf(envases.getLote()));
         TextView t3 = (TextView) listItemView.findViewById(R.id.Producto_envase);
         t3.setText(envases.getProductos());
         TextView t4 = (TextView) listItemView.findViewById(R.id.Tipoenvase_envase);
         t4.setText(envases.getTipoenvases());
+        TextView tb = (TextView) listItemView.findViewById(R.id.Cantidad_envase);
+        tb.setText(String.valueOf(envases.getCantidades()));
         TextView t6 = (TextView) listItemView.findViewById(R.id.Persona_envase);
         t6.setText(envases.getPersonaasignadas());
         TextView t7 = (TextView) listItemView.findViewById(R.id.Etapa_envase);

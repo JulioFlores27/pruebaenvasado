@@ -1,14 +1,15 @@
 package com.julioflores.prueba;
 
 public class Envases {
-    private int ids, nopedidos, cantidades;
+    private int ids, nopedidos, cantidades, lote, cantidades2, lote2, cantidades3, lote3;
     private String fechacapturas, fechaaprobaciones, fechaasignadas, fechaenvases,etapa1s, productos, tipoenvases, 	personaasignadas;
     public Envases(){
 
     }
 
-    public Envases(int ids, int nopedidos, int cantidades, String fechacapturas, String fechaaprobaciones,
-                   String fechaenvases, String fechaasignadas, String etapa1s, String productos, String tipoenvases, String 	personaasignadas) {
+    public Envases(int ids, int nopedidos, int cantidades, int lote, int cantidades2, int lote2, int cantidades3, int lote3,
+                   String fechacapturas, String fechaaprobaciones, String fechaenvases, String fechaasignadas, String etapa1s,
+                   String productos, String tipoenvases, String 	personaasignadas) {
         this.ids = ids;
         this.nopedidos = nopedidos;
         this.cantidades = cantidades;
@@ -20,9 +21,48 @@ public class Envases {
         this.fechacapturas = fechacapturas;
         this.fechaaprobaciones = fechaaprobaciones;
         this.fechaasignadas = fechaasignadas;
-
+        this.lote = lote;
+        this.cantidades2 = cantidades2;
+        this.lote2 = lote2;
+        this.cantidades3 = cantidades3;
+        this.lote3 = lote3;
     }
 
+    public int getCantidades2() {
+        return cantidades2;
+    }
+
+    public void setCantidades2(int cantidades2) {
+        this.cantidades2 = cantidades2;
+    }
+
+    public int getLote2() {
+        return lote2;
+    }
+
+    public void setLote2(int lote2) {
+        this.lote2 = lote2;
+    }
+
+    public int getCantidades3() {
+        return cantidades3;
+    }
+
+    public void setCantidades3(int cantidades3) {
+        this.cantidades3 = cantidades3;
+    }
+
+    public int getLote3() {
+        return lote3;
+    }
+
+    public void setLote3(int lote3) {
+        this.lote3 = lote3;
+    }
+
+    public int getLote() { return lote; }
+
+    public void setLote(int lote) { this.lote = lote; }
 
     public int getIds() {
         return ids;
@@ -61,7 +101,7 @@ public class Envases {
     }
 
     public void setCantidades(int cantidades) {
-        cantidades = cantidades;
+        this.cantidades = cantidades;
     }
 
     public String getFechaaprobaciones() {
@@ -114,8 +154,8 @@ public class Envases {
 
     @Override
     public String toString() {
-        return ids + " "+productos + nopedidos  + cantidades + tipoenvases +
-                fechacapturas + fechaaprobaciones + personaasignadas + etapa1s + fechaenvases + fechaasignadas;
+        return ids + " "+productos + nopedidos  + cantidades + tipoenvases + fechacapturas + fechaaprobaciones + personaasignadas +
+                etapa1s + fechaenvases + fechaasignadas + lote + cantidades2 + lote2 + cantidades3 + lote3;
     }
 
 }
